@@ -1,0 +1,23 @@
+body {
+  background: url('footer_lodyas.png');
+  font-family: 'PT Sans', sans-serif;
+  color: #FF5722;
+}
+h1 {
+  text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+ol{
+  margin: 50px;
+}
+
+ol > li {
+  padding: 3px;
+  font-size: 1.5em;
+  color: #ffeb3b;
+}
