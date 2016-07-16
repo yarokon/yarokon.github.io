@@ -1,5 +1,5 @@
 body {
-  background: url('footer_lodyas.png');
+  background: url('background.png');
   font-family: 'PT Sans', sans-serif;
   color: #FF5722;
 }
@@ -7,9 +7,14 @@ h1 {
   text-align: center;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link, a:visited, a:active {
   color: #ffeb3b;
   text-decoration: none;
+  transition: text-shadow 0.4s;
+}
+
+a:hover {
+  text-shadow: 2px 2px 8px #FF5722;
 }
 
 ol{
